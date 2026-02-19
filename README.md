@@ -35,12 +35,13 @@
 <br/>
 
 ## 📱 앱스토어 배포
-### 애플 앱스토어 '오지캠핑' 검색 후 다운로드
-- https://apps.apple.com/kr/app/id6738459543
+### 애플 앱스토어 '오지캠핑' 검색 후 다운로드 또는 하단 배지 클릭
+
+<a href="https://apps.apple.com/kr/app/id6738459543" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/ko-kr?size=250x83&amp;releaseDate=1693008000" alt="Download on the App Store" style="border-radius: 13px; width: 250px; height: 83px;"></a>
 
 |앱스토어|
 |:---:|
-<img width="300" alt="앱스토어 오지캠핑 다운로드 페이지" src="https://github.com/user-attachments/assets/cbfce820-7021-41c0-b20b-c52d2b44aad7">|
+<img width="300" alt="앱스토어 오지캠핑 다운로드 페이지" src="https://github.com/user-attachments/assets/88d2536f-2fda-422f-b522-301d68a85a57">|
 
 
 <br/>
@@ -62,16 +63,15 @@
 
 ## 📸 구현 화면
 
-
 |홈화면|거리순 화면|업데이트순 화면|
 |:---:|:---:|:---:|
-<img width="300" alt="홈화면" src="https://github.com/user-attachments/assets/e614d2d7-f57a-4be3-86dc-431a42f3384d">|<img width="300" alt="거리순 화면" src="https://github.com/user-attachments/assets/f8c31a43-72a3-4024-bdcb-c2cc082990e8">|<img width="300" alt="업데이트순 화면" src="https://github.com/user-attachments/assets/977aeaf4-d1cd-473e-a6da-b8c5a53dfd51">
+<img width="300" alt="홈화면" src="https://github.com/user-attachments/assets/1609043d-d2e9-4ec8-befa-37e870e97370">|<img width="300" alt="거리순 화면" src="https://github.com/user-attachments/assets/d96431e3-2af2-4ce6-b9e0-2a639bbd33d3">|<img width="300" alt="업데이트순 화면" src="https://github.com/user-attachments/assets/a3e3918d-52b0-4270-8013-fad3ca3e3e6b">
 |현위치 지도 화면|로그인 화면|마이페이지 화면|
-<img width="300" alt="현위치 지도 화면" src="https://github.com/user-attachments/assets/8e9ab3b9-4bea-4448-85cf-ff18d5449d00">|<img width="300" alt="로그인 화면" src="https://github.com/user-attachments/assets/c1a5bcf1-dcef-42d4-ac4c-a3a0e818afab">|<img width="300" alt="마이페이지 화면" src="https://github.com/user-attachments/assets/43502743-11fc-490f-aad8-71a2ea9811b5">|
+<img width="300" alt="현위치 지도 화면" src="https://github.com/user-attachments/assets/06398512-1631-4af9-a962-70f5a0964f46">|<img width="300" alt="로그인 화면" src="https://github.com/user-attachments/assets/0bb8aecd-6499-4db2-8321-e0dc49613be8">|<img width="300" alt="마이페이지 화면" src="https://github.com/user-attachments/assets/6f523754-5f7d-4f59-bee6-a2d65041e8d2">|
 |아이디 찾기 화면|비밀번호 찾기 화면|회원가입-약관동의 화면|
-|<img width="300" alt=" 아이디찾기 화면" src="https://github.com/user-attachments/assets/b1859280-4c2d-4ada-b0da-29481039ef67">|<img width="300" alt=" 비밀번호 찾기 화면" src="https://github.com/user-attachments/assets/6af44e07-dc30-41a6-964e-9b38c33a1c81">|<img width="300" alt="이용동의 약관 화면" src="https://github.com/user-attachments/assets/f7a3b85e-f0c1-4b45-a0bd-396504eb75f7">
+|<img width="300" alt=" 아이디찾기 화면" src="https://github.com/user-attachments/assets/1e05f9e3-49e6-468c-8e76-a59816268f2c">|<img width="300" alt=" 비밀번호 찾기 화면" src="https://github.com/user-attachments/assets/e245af90-787f-4650-9add-de828e48531f">|<img width="300" alt="이용동의 약관 화면" src="https://github.com/user-attachments/assets/ca3176aa-8245-4712-b510-1e0d6b7e30d1">
 |서비스 이용약관 화면|회원가입 화면|
-<img width="300" alt=" 서비스 이용약관 화면" src="https://github.com/user-attachments/assets/c3168e4c-4121-4930-ae5b-9f23e6762699">|<img width="300" alt=" 회원가입 화면" src="https://github.com/user-attachments/assets/618958a1-4282-489e-b372-b63cb1c6a20b">
+<img width="300" alt=" 서비스 이용약관 화면" src="https://github.com/user-attachments/assets/a4f7a9de-4309-45ec-bc6e-e7a0cbd901e0">|<img width="300" alt=" 회원가입 화면" src="https://github.com/user-attachments/assets/4eea3739-5394-47cd-832e-c42aca690b53">
 
 <br/> 
 
