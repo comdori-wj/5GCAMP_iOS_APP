@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DpS-Ad-Uvs">
+    <device id="retina6_3" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--MyPage-->
+        <scene sceneID="dKA-Xa-1Jl">
+            <objects>
+                <viewControllerPlaceholder storyboardName="MyPage" id="JL6-t4-Uk9" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="Cn2-Sp-9QR"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xOj-e7-Tk8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1006" y="95"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="Ei1-T5-lk3">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Home" id="g6Q-2s-dgj" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" id="Pvd-tY-Rff"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yNr-P2-fpy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1015" y="-28"/>
+        </scene>
+        <!--Map-->
+        <scene sceneID="YeT-1a-kfQ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Map" id="hW5-8p-EYY" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="ycA-z2-vjh"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hKi-Ci-qT9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1022" y="36"/>
+        </scene>
+        <!--CampingListRecentUpdate-->
+        <scene sceneID="gDW-z9-xIi">
+            <objects>
+                <viewControllerPlaceholder storyboardName="CampingListRecentUpdate" id="WSx-oQ-EV2" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="oen-tU-Pld"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wpb-fb-ALs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="912" y="-116"/>
+        </scene>
+        <!--CampingListDistance-->
+        <scene sceneID="4fL-wl-baW">
+            <objects>
+                <viewControllerPlaceholder storyboardName="CampingListDistance" id="54B-4o-rud" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="kwY-Gn-jNZ"/>
+                    <navigationItem key="navigationItem" id="ihg-VU-QGg"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kiX-8s-heh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="938" y="-193"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="BEu-Zj-rq8">
+            <objects>
+                <tabBarController storyboardIdentifier="TabBar" automaticallyAdjustsScrollViewInsets="NO" id="DpS-Ad-Uvs" customClass="TabBarController" customModule="_GCAMP" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="wXg-pU-wYI">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.0039215686274509803" green="0.47843137254901957" blue="0.99215686274509807" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                                <color key="value" red="0.0039215686274509803" green="0.47843137254901957" blue="0.99215686274509807" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </tabBar>
+                    <connections>
+                        <segue destination="54B-4o-rud" kind="relationship" relationship="viewControllers" id="68s-wS-ynv"/>
+                        <segue destination="WSx-oQ-EV2" kind="relationship" relationship="viewControllers" id="gTQ-dQ-yGN"/>
+                        <segue destination="g6Q-2s-dgj" kind="relationship" relationship="viewControllers" id="2Zx-KC-knq"/>
+                        <segue destination="hW5-8p-EYY" kind="relationship" relationship="viewControllers" id="Qtx-hX-KHB"/>
+                        <segue destination="JL6-t4-Uk9" kind="relationship" relationship="viewControllers" id="ToU-0A-tkz"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NsT-ag-U4D" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.53435114503816" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Terms Of Service View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="TermsOfServiceView" id="Y6W-OH-hqX" customClass="TermsOfServiceViewController" customModule="_GCAMP" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="793"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0VM-Q6-nao">
+                                <rect key="frame" x="0.0" y="59" width="393" height="54"/>
+                                <items>
+                                    <navigationItem title="서비스 이용약관" id="M2a-HR-fii">
+                                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="stop" id="fKF-PE-KYg">
+                                            <color key="tintColor" name="AccentColor"/>
+                                            <connections>
+                                                <action selector="tappedCloseButton:" destination="Y6W-OH-hqX" id="Ikd-Y5-9e3"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="natural" adjustsFontForContentSizeCategory="YES" findInteractionEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IVq-st-xRJ">
+                                <rect key="frame" x="0.0" y="113" width="393" height="680"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">제1장 환영해요, 오지캠핑
+
+제1조 목적
+
+이 약관은 주식회사 캠버(이하 “회사"라 함)이 운영하는 캠핑 플랫폼(이하 “플랫폼"이라 함)에서 운영하는 캠핑 관련 서비스 “오지캠핑(5GCAMPING)" (이하 “서비스"라 함)을 이용함에 있어 “회사" 와 “이용자"의 권리, 의무 및 책임사항을 규정함을 목적으로 합니다.
+
+※ [PC 통신, 무선 등을 이용하는 경우에 대해서도 그 성질에 반하지 않는 한 이 약관을 준용합니다.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="0VM-Q6-nao" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="15e-kf-c2q"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="IVq-st-xRJ" secondAttribute="bottom" id="7LN-xn-6T1"/>
+                            <constraint firstItem="IVq-st-xRJ" firstAttribute="top" secondItem="0VM-Q6-nao" secondAttribute="bottom" id="H0F-WF-Tb1"/>
+                            <constraint firstItem="0VM-Q6-nao" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="Pfk-sX-xip"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="IVq-st-xRJ" secondAttribute="trailing" id="Rqf-VK-5c1"/>
+                            <constraint firstItem="IVq-st-xRJ" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="YJr-sN-dMF"/>
+                            <constraint firstItem="IVq-st-xRJ" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="YfJ-BI-55P"/>
+                            <constraint firstItem="0VM-Q6-nao" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="cIW-eR-KLI"/>
+                            <constraint firstItem="0VM-Q6-nao" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="ifH-09-Sal"/>
+                        </constraints>
+                    </view>
+                    <modalPageSheetSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="termsOfServiceTextView" destination="IVq-st-xRJ" id="a1a-Kf-oXs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-981" y="-96"/>
+        </scene>
+        <!--Privacy Policy View Controller-->
+        <scene sceneID="Zv4-9S-Qm9">
+            <objects>
+                <viewController storyboardIdentifier="PrivacyPolicyView" id="2vQ-px-zxg" customClass="PrivacyPolicyViewController" customModule="_GCAMP" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BpF-BJ-Rg8">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="793"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7SO-E2-VGc">
+                                <rect key="frame" x="0.0" y="59" width="393" height="54"/>
+                                <items>
+                                    <navigationItem title="개인정보 수집 및 이용동의 약관" id="JoL-8H-Tlu">
+                                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="stop" id="ab6-rx-6QW">
+                                            <color key="tintColor" name="AccentColor"/>
+                                            <connections>
+                                                <action selector="tappedCloseButton:" destination="2vQ-px-zxg" id="YgX-gC-Ry2"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <wkWebView contentMode="scaleToFill" findInteractionEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o10-LI-fVM">
+                                <rect key="frame" x="0.0" y="113" width="393" height="680"/>
+                                <color key="backgroundColor" red="0.31728893520000001" green="0.63853675129999998" blue="0.91767960790000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences" javaScriptCanOpenWindowsAutomatically="YES"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="y0q-eY-bbz"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="o10-LI-fVM" firstAttribute="top" secondItem="7SO-E2-VGc" secondAttribute="bottom" id="Atr-2B-wJh"/>
+                            <constraint firstItem="y0q-eY-bbz" firstAttribute="bottom" secondItem="o10-LI-fVM" secondAttribute="bottom" id="AuY-jq-5eP"/>
+                            <constraint firstItem="7SO-E2-VGc" firstAttribute="trailing" secondItem="y0q-eY-bbz" secondAttribute="trailing" id="TRS-Y5-qVV"/>
+                            <constraint firstItem="7SO-E2-VGc" firstAttribute="leading" secondItem="y0q-eY-bbz" secondAttribute="leading" id="VqO-jf-vBY"/>
+                            <constraint firstItem="o10-LI-fVM" firstAttribute="centerX" secondItem="BpF-BJ-Rg8" secondAttribute="centerX" id="eNj-Sv-7tj"/>
+                            <constraint firstItem="7SO-E2-VGc" firstAttribute="top" secondItem="y0q-eY-bbz" secondAttribute="top" id="fgd-2Y-gtP"/>
+                            <constraint firstItem="o10-LI-fVM" firstAttribute="leading" secondItem="y0q-eY-bbz" secondAttribute="leading" id="hJb-I2-TFf"/>
+                            <constraint firstItem="y0q-eY-bbz" firstAttribute="trailing" secondItem="o10-LI-fVM" secondAttribute="trailing" id="nC2-p1-woe"/>
+                            <constraint firstItem="7SO-E2-VGc" firstAttribute="centerX" secondItem="BpF-BJ-Rg8" secondAttribute="centerX" id="vjW-Dc-gWc"/>
+                        </constraints>
+                    </view>
+                    <modalPageSheetSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="privacyPolicyWebView" destination="o10-LI-fVM" id="QaB-DY-tf7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ooT-sd-ESf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-277" y="-96"/>
+        </scene>
+        <!--Third Party Sharing View Controller-->
+        <scene sceneID="jL4-bj-cUn">
+            <objects>
+                <viewController storyboardIdentifier="ThirdPartySharingView" id="cxa-LT-G6R" customClass="ThirdPartySharingViewController" customModule="_GCAMP" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SlQ-pN-1Jk">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="793"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YBB-rQ-buC">
+                                <rect key="frame" x="0.0" y="59" width="393" height="54"/>
+                                <items>
+                                    <navigationItem title="개인정보 제3자 제공동의 약관" id="BhB-w3-rqV">
+                                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="stop" id="YBr-fh-B1y">
+                                            <color key="tintColor" name="AccentColor"/>
+                                            <connections>
+                                                <action selector="tappedCloseButton:" destination="cxa-LT-G6R" id="6dp-NR-qJp"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <wkWebView contentMode="scaleToFill" findInteractionEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Szv-09-vie">
+                                <rect key="frame" x="0.0" y="113" width="393" height="680"/>
+                                <color key="backgroundColor" red="0.31728893520000001" green="0.63853675129999998" blue="0.91767960790000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences" javaScriptCanOpenWindowsAutomatically="YES"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="gIr-c0-44w"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="YBB-rQ-buC" firstAttribute="centerX" secondItem="SlQ-pN-1Jk" secondAttribute="centerX" id="5KU-QC-aHH"/>
+                            <constraint firstItem="gIr-c0-44w" firstAttribute="bottom" secondItem="Szv-09-vie" secondAttribute="bottom" id="6LW-1p-IJW"/>
+                            <constraint firstItem="Szv-09-vie" firstAttribute="leading" secondItem="gIr-c0-44w" secondAttribute="leading" id="WyE-ar-j2y"/>
+                            <constraint firstItem="gIr-c0-44w" firstAttribute="trailing" secondItem="Szv-09-vie" secondAttribute="trailing" id="ZoS-Al-f3s"/>
+                            <constraint firstItem="YBB-rQ-buC" firstAttribute="top" secondItem="gIr-c0-44w" secondAttribute="top" id="ey7-pE-qui"/>
+                            <constraint firstItem="YBB-rQ-buC" firstAttribute="leading" secondItem="gIr-c0-44w" secondAttribute="leading" id="fjC-mt-BmG"/>
+                            <constraint firstItem="YBB-rQ-buC" firstAttribute="trailing" secondItem="gIr-c0-44w" secondAttribute="trailing" id="krq-D8-GHV"/>
+                            <constraint firstItem="Szv-09-vie" firstAttribute="centerX" secondItem="SlQ-pN-1Jk" secondAttribute="centerX" id="qDX-qp-9Qv"/>
+                            <constraint firstItem="Szv-09-vie" firstAttribute="top" secondItem="YBB-rQ-buC" secondAttribute="bottom" id="rEb-SO-Q0g"/>
+                        </constraints>
+                    </view>
+                    <modalPageSheetSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="thirdPartSharingWebView" destination="Szv-09-vie" id="9HE-rE-ffz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6SC-gI-dv6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="421" y="-96"/>
+        </scene>
+        <!--Location Based Service Consent View Controller-->
+        <scene sceneID="q1t-jT-TBI">
+            <objects>
+                <viewController storyboardIdentifier="LocationBasedServiceConsentView" id="d1L-FA-KjP" customClass="LocationBasedServiceConsentViewController" customModule="_GCAMP" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9kk-Ui-Dgo">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="793"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rZi-k7-Gwq">
+                                <rect key="frame" x="0.0" y="59" width="393" height="54"/>
+                                <items>
+                                    <navigationItem title="개인위치기반서비스 이용동의 약관" id="sO1-RW-Rlq">
+                                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="stop" id="nZO-KU-et2">
+                                            <color key="tintColor" name="AccentColor"/>
+                                            <connections>
+                                                <action selector="tappedCloseButton:" destination="d1L-FA-KjP" id="Ghl-Ey-z0y"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <wkWebView contentMode="scaleToFill" findInteractionEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="03S-0m-H7C">
+                                <rect key="frame" x="0.0" y="113" width="393" height="680"/>
+                                <color key="backgroundColor" red="0.31728893520000001" green="0.63853675129999998" blue="0.91767960790000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences" javaScriptCanOpenWindowsAutomatically="YES"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="J4D-9s-a45"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="03S-0m-H7C" firstAttribute="top" secondItem="rZi-k7-Gwq" secondAttribute="bottom" id="3Qe-gZ-VUv"/>
+                            <constraint firstItem="J4D-9s-a45" firstAttribute="bottom" secondItem="03S-0m-H7C" secondAttribute="bottom" id="48m-rB-Z7J"/>
+                            <constraint firstItem="J4D-9s-a45" firstAttribute="trailing" secondItem="03S-0m-H7C" secondAttribute="trailing" id="7qB-Na-zmw"/>
+                            <constraint firstItem="03S-0m-H7C" firstAttribute="leading" secondItem="J4D-9s-a45" secondAttribute="leading" id="8qO-kI-lW0"/>
+                            <constraint firstItem="rZi-k7-Gwq" firstAttribute="trailing" secondItem="J4D-9s-a45" secondAttribute="trailing" id="FxE-de-M6M"/>
+                            <constraint firstItem="rZi-k7-Gwq" firstAttribute="leading" secondItem="J4D-9s-a45" secondAttribute="leading" id="WbS-lC-3Al"/>
+                            <constraint firstItem="03S-0m-H7C" firstAttribute="centerX" secondItem="9kk-Ui-Dgo" secondAttribute="centerX" id="idL-ef-71j"/>
+                            <constraint firstItem="rZi-k7-Gwq" firstAttribute="top" secondItem="J4D-9s-a45" secondAttribute="top" id="jeh-NB-PRQ"/>
+                            <constraint firstItem="rZi-k7-Gwq" firstAttribute="centerX" secondItem="9kk-Ui-Dgo" secondAttribute="centerX" id="lth-Ro-3Ws"/>
+                        </constraints>
+                    </view>
+                    <modalPageSheetSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="locationBasedServiceConsentWebView" destination="03S-0m-H7C" id="E6Q-CT-wGy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GWk-U9-DqT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1078.6259541984732" y="-96.478873239436624"/>
+        </scene>
+        <!--Marketing Consent View Controller-->
+        <scene sceneID="ZTD-eL-g4p">
+            <objects>
+                <viewController storyboardIdentifier="MarketingConsentView" id="vbM-rD-A3v" customClass="MarketingConsentViewController" customModule="_GCAMP" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GaI-ai-b0F">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="793"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="px4-gi-n8T">
+                                <rect key="frame" x="0.0" y="59" width="393" height="54"/>
+                                <items>
+                                    <navigationItem title="이벤트 / 마케팅 수신동의 약관" id="LgB-zb-eFE">
+                                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="stop" id="vhb-4o-TOs">
+                                            <color key="tintColor" name="AccentColor"/>
+                                            <connections>
+                                                <action selector="tappedCloseButton:" destination="vbM-rD-A3v" id="cZE-a4-Rns"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <wkWebView contentMode="scaleToFill" findInteractionEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RSf-20-DaF">
+                                <rect key="frame" x="0.0" y="113" width="393" height="680"/>
+                                <color key="backgroundColor" red="0.31728893520000001" green="0.63853675129999998" blue="0.91767960790000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences" javaScriptCanOpenWindowsAutomatically="YES"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="5qa-qG-8nW"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="5qa-qG-8nW" firstAttribute="trailing" secondItem="RSf-20-DaF" secondAttribute="trailing" id="38U-6w-oFI"/>
+                            <constraint firstItem="px4-gi-n8T" firstAttribute="leading" secondItem="5qa-qG-8nW" secondAttribute="leading" id="5Y1-zW-u1h"/>
+                            <constraint firstItem="RSf-20-DaF" firstAttribute="top" secondItem="px4-gi-n8T" secondAttribute="bottom" id="DnJ-eU-Lr0"/>
+                            <constraint firstItem="px4-gi-n8T" firstAttribute="centerX" secondItem="GaI-ai-b0F" secondAttribute="centerX" id="P58-fv-rWd"/>
+                            <constraint firstItem="px4-gi-n8T" firstAttribute="top" secondItem="5qa-qG-8nW" secondAttribute="top" id="VtS-bQ-jhh"/>
+                            <constraint firstItem="5qa-qG-8nW" firstAttribute="bottom" secondItem="RSf-20-DaF" secondAttribute="bottom" id="WcR-o8-ron"/>
+                            <constraint firstItem="RSf-20-DaF" firstAttribute="leading" secondItem="5qa-qG-8nW" secondAttribute="leading" id="dr2-E2-Lbc"/>
+                            <constraint firstItem="px4-gi-n8T" firstAttribute="trailing" secondItem="5qa-qG-8nW" secondAttribute="trailing" id="fqy-gE-B4q"/>
+                            <constraint firstItem="RSf-20-DaF" firstAttribute="centerX" secondItem="GaI-ai-b0F" secondAttribute="centerX" id="pPx-iv-Xfc"/>
+                        </constraints>
+                    </view>
+                    <modalPageSheetSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="marketingConsentWebView" destination="RSf-20-DaF" id="nCt-gh-QZ5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z57-VQ-ov5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <wkWebView contentMode="scaleToFill" findInteractionEnabled="YES" id="gbJ-HR-Wb9">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="786"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.31728893520000001" green="0.63853675129999998" blue="0.91767960790000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <wkWebViewConfiguration key="configuration">
+                        <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                        <wkPreferences key="preferences" javaScriptCanOpenWindowsAutomatically="YES"/>
+                    </wkWebViewConfiguration>
+                </wkWebView>
+            </objects>
+            <point key="canvasLocation" x="1773" y="-96"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="V8Y-Di-FVw">
+    <device id="retina6_3" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ub9-UN-aoA">
+            <objects>
+                <viewController id="V8Y-Di-FVw" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PkT-km-QeJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZOw-IA-gKU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wke-dN-SJM">
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="Splash.png" translatesAutoresizingMaskIntoConstraints="NO" id="tAL-Oe-Nrp">
+                                <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="tAL-Oe-Nrp" firstAttribute="leading" secondItem="wke-dN-SJM" secondAttribute="leading" id="0eh-4J-9OE"/>
+                            <constraint firstItem="tAL-Oe-Nrp" firstAttribute="top" secondItem="PkT-km-QeJ" secondAttribute="bottom" constant="-62" id="NkW-91-nBy"/>
+                            <constraint firstAttribute="trailing" secondItem="tAL-Oe-Nrp" secondAttribute="trailing" id="WGU-ld-f77"/>
+                            <constraint firstItem="ZOw-IA-gKU" firstAttribute="top" secondItem="tAL-Oe-Nrp" secondAttribute="bottom" constant="-34" id="cBN-jc-vHq"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gsk-OQ-sPm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-411.94029850746267" y="1706.6361556064071"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Splash.png" width="1668" height="2224"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
