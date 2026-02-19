@@ -264,10 +264,8 @@ Guideline 1.2 - Safety - User-Generated Content
 
 |이용약관 수정|게시글 신고 및 차단 버튼|
 |:---:|:---:|
-<img width="300" alt="이용약관 수정" src="https://github.com/user-attachments/assets/2606ca55-6dfc-461b-b7ce-9d1729d94271">|<img width="300" alt="게시글 신고 및 차단 기능" src="https://github.com/user-attachments/assets/ed116828-de25-40c3-8e84-3813cd758418">
+<img width="300" alt="이용약관 수정" src="https://github.com/user-attachments/assets/c29d1724-f22a-4d28-b651-cec34572ff2e">|<img width="300" alt="게시글 신고 및 차단 기능" src="https://github.com/user-attachments/assets/783de56a-4c38-4cd2-9571-c68d32b9ae19">
 |신고 및 차단 팝업창 및 경고|신고 내용 24시간 이내 관리자 검토 메시지|
-<img width="300" alt="신고 및 차단 팝업창 및 경고" src="https://github.com/user-attachments/assets/5da38015-1f7c-4006-b367-39e9847c74f2">|<img width="300" alt="신고 내용 24시간 이내 관리자 검토 메시지" src="https://github.com/user-attachments/assets/483bebad-6253-4e0f-83c7-750d49e47a47">
-
-
+<img width="300" alt="신고 및 차단 팝업창 및 경고" src="https://github.com/user-attachments/assets/61ff8e81-e337-4301-816b-d6090a927ec1">|<img width="300" alt="신고 내용 24시간 이내 관리자 검토 메시지" src="https://github.com/user-attachments/assets/72f3361a-36c4-4272-bf61-e2d7615bd1c1">
 
 
